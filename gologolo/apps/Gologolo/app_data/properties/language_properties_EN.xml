@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file provides all the text to be used when the application
+    is to be displayed in English.
+-->
+<properties>
+    <property_list>
+
+        <!-- ENGLISH LANGUAGE SETTINGS FOR DESKTOP JAVA FRAMEWORK CONTROLS -->
+
+        <!-- WELCOME DIALOG TEXT -->
+        <property name="WELCOME_DIALOG_TITLE"               value="Welcome to The GoLoGoLo"></property>
+        <property name="WELCOME_DIALOG_RECENT_WORK_LABEL"   value="Recent Work"></property>
+        <property name="WELCOME_DIALOG_NEW_BUTTON_TEXT"  value="Create a New GoLoGoLo"></property>
+
+        <!-- GENERIC APP ERROR MESSAGES -->
+        <property name="APP_ERROR_TITLE"            value="Application Error"></property>
+        <property name="APP_ERROR_CONTENT"          value="An Error Occured in the Application"></property>
+
+        <!-- PROPERTIES ERROR MESSAGES -->
+        <property name="PROPERTIES_ERROR_TITLE"     value="Properties File Error"></property>
+        <property name="PROPERTIES_ERROR_CONTENT"   value="There was an Error Loading a Properties File"></property>
+
+        <!-- FILE TOOLBAR TOOLTIPS -->
+        <property name="NEW_BUTTON_TOOLTIP"         value="New GoLoGoLo"></property>
+        <property name="LOAD_BUTTON_TOOLTIP"        value="Load GoLoGoLo"></property>
+        <property name="CLOSE_BUTTON_TOOLTIP"       value="Close GoLoGoLo"></property>
+        <property name="SAVE_BUTTON_TOOLTIP"        value="Save GoLoGoLo"></property>
+        <property name="EXPORT_BUTTON_TOOLTIP"      value="Export GoLoGoLo"></property>
+        <property name="EXIT_BUTTON_TOOLTIP"        value="Exit"></property>
+
+        <!-- CLIPBOARD TOOLBAR TOOLTIPS -->
+        <property name="CUT_BUTTON_TOOLTIP"         value="Cut"></property>
+        <property name="COPY_BUTTON_TOOLTIP"        value="Copy"></property>
+        <property name="PASTE_BUTTON_TOOLTIP"       value="Paste"></property>
+
+        <!-- UNDO TOOLBAR TOOLTIPS -->
+        <property name="UNDO_BUTTON_TOOLTIP"        value="Undo"></property>
+        <property name="REDO_BUTTON_TOOLTIP"        value="Redo"></property>
+
+        <!-- HELP TOOLBAR TOOLTIPS -->
+        <property name="HELP_BUTTON_TOOLTIP"        value="Help"></property>
+        <property name="LANGUAGE_BUTTON_TOOLTIP"    value="Change Langauge"></property>
+        <property name="ABOUT_BUTTON_TOOLTIP"       value="About"></property>
+
+        <!-- NEW FEEDBACK DIALOGS -->	
+        <property name="NEW_SUCCESS_TITLE"      value="New Complete"></property>
+        <property name="NEW_SUCCESS_CONTENT"	value="Work Created but not yet Saved"></property>
+        <property name="NEW_ERROR_TITLE"        value="Warning: Error"></property>
+        <property name="NEW_ERROR_CONTENT"      value="An error occured creating New work."></property>
+
+        <!-- LOAD FEEDBACK DIALOGS -->
+        <property name="LOAD_WORK_TITLE"        value="Load Work"></property>
+        <property name="LOAD_SUCCESS_TITLE"     value="Load Complete"></property>
+        <property name="LOAD_SUCCESS_CONTENT"   value="The File has Loaded Successfully and can now be edited."></property>
+        <property name="LOAD_ERROR_TITLE"       value="Loading Error"></property>        
+        <property name="LOAD_ERROR_CONTENT"     value="Loading has Failed. Likely there is a File Formating problem."></property>
+
+        <!-- SAVE FEEDBACK DIALOGS -->
+        <property name="SAVE_WORK_TITLE"        value="Save Work"></property>
+        <property name="SAVE_SUCCESS_TITLE"     value="Save Complete"></property>
+        <property name="SAVE_SUCCESS_CONTENT"   value="The file is saved."></property>
+        <property name="SAVE_ERROR_TITLE"       value="Save Error"></property>
+        <property name="SAVE_ERROR_CONTENT"     value="Saving has Failed. Likely due to a file access problem."></property>
+        <property name="SAVE_VERIFY_TITLE"	value="Save unsaved work?"></property>
+        <property name="SAVE_VERIFY_CONTENT"	value="Would you like to save your unsaved work first?"></property>
+
+        <!-- ABOUT DIALOG -->
+        <property name="ABOUT_TITLE"            value="About GoLoGoLo"></property>
+        <property name="ABOUT_CONTENT"          value="TDLM, the GoLoGoLo - Debugging Enterprises - © 2017"></property>
+
+
+        <!-- ENGLISH LANGUAGE SETTINGS SPECIFICALLY FOR TDLM CONTROLS -->
+        
+        <!-- LANGUAGE-DEPENDENT TEXT FOR WORKSPACE CONTROLS -->
+        <property name="TDLM_TO_DO_LIST_LABEL_TEXT"      value="@GoLoGoLo"></property>
+        <property name="TDLM_ITEMS_LABEL_TEXT"           value="Items"></property>
+        <property name="TDLM_ADD_ITEM_BUTTON_TOOLTIP"    value="Add New Item"></property>
+        <property name="TDLM_REMOVE_ITEM_BUTTON_TOOLTIP" value="Remove Selected Item"></property>
+        <property name="TDLM_EDIT_ITEM_BUTTON_TOOLTIP"   value="Edit Selected Item"></property>
+        <property name="TDLM_MOVE_UP_BUTTON_TOOLTIP"     value="Move Selected Item Up"></property>
+        <property name="TDLM_MOVE_DOWN_BUTTON_TOOLTIP"   value="Move Selected Item Down"></property>
+        <property name="TDLM_ORDER_COLUMN_TEXT"         value="order"></property>
+        <property name="TDLM_NAME_COLUMN_TEXT"          value="name"></property>
+        <property name="TDLM_TYPE_COLUMN_TEXT"          value="type"></property>
+
+        <!-- LANGUAGE-DEPENDENT TEXT FOR ITEM DIALOG CONTROLS -->
+        <property name="TDLM_ITEM_DIALOG_HEADER_TEXT"               value="Add/Edit Items"></property>
+        <property name="TDLM_ITEM_DIALOG_ADD_HEADER_TEXT"           value="Add Item"></property>
+        <property name="TDLM_ITEM_DIALOG_EDIT_HEADER_TEXT"          value="Edit Item"></property>
+
+        <property name="TDLM_ITEM_DIALOG_OK_BUTTON_TEXT"            value="OK"></property>
+        <property name="TDLM_ITEM_DIALOG_CANCEL_BUTTON_TEXT"        value="Cancel"></property>       
+        <property name="TDLM_ITEM_RESIZE_DIALOG_HEADER_TEXT"        value="Change Logo Dimensions"></property>   
+        <property name="TDLM_ITEM_RESIZE_DIALOG_HEIGHT_PROMPT_TEXT"        value="Height"></property>   
+        <property name="TDLM_ITEM_RESIZE_DIALOG_WIDTH_PROMPT_TEXT"        value="Width"></property>   
+        <property name="TDLM_ITEM_RESIZE_DIALOG_TITLE_TEXT"        value="GoLoGoLo"></property> 
+
+        <!-- TO SWITCH BACK TO ANOTHER FONT -->
+        <property name="DEFAULT_FONT"          value="Times New Roman"></property>
+        <property name="DEFAULT_FONT_SIZE"          value="12"></property>
+        <property name="DEFAULT_CYCLE_METHOD_SIZE"          value="NO_CYCLE"></property>
+        <property name="TDLM_COLOR_GRADIENT_LABEL_TEXT"      value="COLOR GRADIENT"></property>
+        
+        <property name="TDLM_BORDER_THICKNESS_LABEL_TEXT"      value="Border Thickness:"></property>
+        <property name="TDLM_BORDER_COLOR_LABEL_TEXT"      value="Border Corlor:"></property>
+        <property name="TDLM_BORDER_RADIUS_LABEL_TEXT"      value="Border Radius:"></property>
+        
+        
+        <property name="TDLM_FOCUS_ANGLE_LABEL_TEXT"      value="Focus Angle:"></property>
+        <property name="TDLM_FOCUS_DISTANCE_LABEL_TEXT"      value="Focus Distance:"></property>
+        <property name="TDLM_CANTER_X_LABEL_TEXT"      value="Canter X:"></property>
+        <property name="TDLM_CANTER_Y_LABEL_TEXT"      value="Canter Y:"></property>
+        <property name="TDLM_RADIUS_LABEL_TEXT"      value="Radius:"></property>
+        <property name="TDLM_CYCLE_METHOD_LABEL_TEXT"      value="Cycle Method:"></property>
+        <property name="TDLM_STEP_0_COLOR_LABEL_TEXT"      value="Step 0 Color:"></property>
+        <property name="TDLM_STEP_1_COLOR_LABEL_TEXT"      value="Step 1 Color"></property>
+        <property name="SNAP_LABEL_TEXT"                          value="Snap"></property>
+        <property name="TDLM_TEXT_DIALOG_TITLE"                          value="Text Dialog"></property>
+        <property name="TDLM_OPEN_DIALOG_TITLE"                          value="Document"></property>
+        <property name="TDLM_TEXT_DIALOG_CONTENT_LABEL"                          value="Text is: "></property>
+        <property name="TDLM_WRONG_CONTENT_MESSAGE"                          value="Content cannot be empty "></property>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- TO SWITCH BACK TO ANOTHER LANGUAGE -->
+        <property name="LANGUAGE_DIALOG_TITLE"          value="App Language Selection"></property>
+        <property name="LANGUAGE_DIALOG_HEADER_TEXT"    value="Choose a Language"></property>
+        <property name="LANGUAGE_DIALOG_CONTENT_TEXT"   value="Select a Language for the User Interface."></property>
+
+        <property name="WORK_FILE_EXT"          value="tdlm"></property>
+	<property name="WORK_FILE_EXT_DESC"     value="To Do List Maker Files"></property>
+
+    </property_list>
+    
+    <!-- TDLM COMBO BOX CHOICES -->
+    <property_options_list>
+        <property_options name="LANGUAGE_OPTIONS">
+            <option>English</option>
+            <option>Korean</option>
+            <option>Spanish</option>
+        </property_options>
+    
+        <property_options name="FONT_OPTIONS">
+            <option>Times New Roman</option>
+            <option>Body</option>
+            <option>Arial</option>
+        </property_options>
+        
+         <property_options name="CYCLE_METHOD_OPTIONS">
+            <option>NO_CYCLE</option>
+            <option>REFLECT</option>
+            <option>REPEAT</option>
+        </property_options>
+        
+        <property_options name="FONT_SIZE_OPTIONS">
+
+            <option>10</option>
+            <option>12</option>
+            <option>14</option>
+            <option>16</option>
+            <option>18</option>
+            <option>20</option>
+            <option>22</option>
+            <option>24</option>
+            <option>26</option>
+            <option>28</option>
+            <option>30</option>
+            <option>32</option>
+            <option>34</option>
+            <option>36</option>
+            <option>38</option>
+            <option>40</option>
+            <option>42</option>
+            <option>44</option>
+            <option>46</option>
+            <option>48</option>
+        </property_options>
+    </property_options_list>
+
+    
+    
+    
+    
+</properties>

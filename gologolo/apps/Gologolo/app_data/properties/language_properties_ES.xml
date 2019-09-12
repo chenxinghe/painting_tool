@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file provides all the text to be used when the application
+    is to be displayed in English.
+-->
+<properties>
+    <property_list>
+
+       
+        <!-- ENGLISH LANGUAGE SETTINGS FOR DESKTOP JAVA FRAMEWORK CONTROLS -->
+
+        <!-- WELCOME DIALOG TEXT -->
+        <property name="WELCOME_DIALOG_TITLE"               value="Bienvenido a The GoLoGoLo"></property>
+        <property name="WELCOME_DIALOG_RECENT_WORK_LABEL"   value="Trabajo reciente"></property>
+        <property name="WELCOME_DIALOG_NEW_BUTTON_TEXT"  value="Crea un nuevo GoLoGoLo"></property>
+
+        <!-- GENERIC APP ERROR MESSAGES -->
+        <property name="APP_ERROR_TITLE"            value="Error de la aplicación"></property>
+        <property name="APP_ERROR_CONTENT"          value="Un error ocurrido en la aplicación"></property>
+
+        <!-- PROPERTIES ERROR MESSAGES -->
+        <property name="PROPERTIES_ERROR_TITLE"     value="Error de archivo de propiedades"></property>
+        <property name="PROPERTIES_ERROR_CONTENT"   value="Hubo un error al cargar un archivo de propiedades"></property>
+
+        <!-- FILE TOOLBAR TOOLTIPS -->
+        <property name="NEW_BUTTON_TOOLTIP"         value="New GoLoGoLo"></property>
+        <property name="LOAD_BUTTON_TOOLTIP"        value="Nuevo GoLoGoLo"></property>
+        <property name="CLOSE_BUTTON_TOOLTIP"       value="Cerrar GoLoGoLo"></property>
+        <property name="SAVE_BUTTON_TOOLTIP"        value="Guarde GoLoGoLo"></property>
+        <property name="EXPORT_BUTTON_TOOLTIP"      value="Exportar GoLoGoLo"></property>
+        <property name="EXIT_BUTTON_TOOLTIP"        value="Salida"></property>
+
+        <!-- CLIPBOARD TOOLBAR TOOLTIPS -->
+        <property name="CUT_BUTTON_TOOLTIP"         value="Cortar"></property>
+        <property name="COPY_BUTTON_TOOLTIP"        value="Dupdo"></property>
+        <property name="PASTE_BUTTON_TOOLTIP"       value="Pegar"></property>
+
+        <!-- UNDO TOOLBAR TOOLTIPS -->
+        <property name="UNDO_BUTTON_TOOLTIP"        value="Deshacer"></property>
+        <property name="REDO_BUTTON_TOOLTIP"        value="Rehacer"></property>
+
+        <!-- HELP TOOLBAR TOOLTIPS -->
+        <property name="HELP_BUTTON_TOOLTIP"        value="Ayuda"></property>
+        <property name="LANGUAGE_BUTTON_TOOLTIP"    value="Cambiar idioma"></property>
+        <property name="ABOUT_BUTTON_TOOLTIP"       value="Acerca de"></property>
+
+        <!-- NEW FEEDBACK DIALOGS -->	
+        <property name="NEW_SUCCESS_TITLE"      value="Nuevo completo"></property>
+        <property name="NEW_SUCCESS_CONTENT"	value="Trabajo creado pero aún no guardado"></property>
+        <property name="NEW_ERROR_TITLE"        value="Advertencia: error"></property>
+        <property name="NEW_ERROR_CONTENT"      value="Se produjo un error al crear un nuevo trabajo."></property>
+
+        <!-- LOAD FEEDBACK DIALOGS -->
+        <property name="LOAD_WORK_TITLE"        value="Cargar trabajo"></property>
+        <property name="LOAD_SUCCESS_TITLE"     value="Carga completa"></property>
+        <property name="LOAD_SUCCESS_CONTENT"   value="El archivo se cargó con éxito y ahora se puede editar."></property>
+        <property name="LOAD_ERROR_TITLE"       value="Error de carga"></property>        
+        <property name="LOAD_ERROR_CONTENT"     value="Cargando ha fallado Probablemente haya un problema de File Formatting."></property>
+
+        <!-- SAVE FEEDBACK DIALOGS -->
+        <property name="SAVE_WORK_TITLE"        value="Ahorre trabajo"></property>
+        <property name="SAVE_SUCCESS_TITLE"     value="Guardar completo"></property>
+        <property name="SAVE_SUCCESS_CONTENT"   value="El archivo está guardado."></property>
+        <property name="SAVE_ERROR_TITLE"       value="Guardar error"></property>
+        <property name="SAVE_ERROR_CONTENT"     value="El ahorro ha fallado. Probablemente debido a un problema de acceso a archivos."></property>
+        <property name="SAVE_VERIFY_TITLE"	value="Guarde el trabajo no guardado?"></property>
+        <property name="SAVE_VERIFY_CONTENT"	value="¿Le gustaría guardar primero su trabajo no guardado?"></property>
+
+        <!-- ABOUT DIALOG -->
+        <property name="ABOUT_TITLE"            value="Acerca de GoLoGoLo"></property>
+        <property name="ABOUT_CONTENT"          value=" GoLoGoLo - Empresas de depuración - © 2017"></property>
+
+
+        <!-- ENGLISH LANGUAGE SETTINGS SPECIFICALLY FOR TDLM CONTROLS -->
+        
+        <!-- LANGUAGE-DEPENDENT TEXT FOR WORKSPACE CONTROLS -->
+        <property name="TDLM_TO_DO_LIST_LABEL_TEXT"      value="@GoLoGoLo"></property>
+        <property name="TDLM_ITEMS_LABEL_TEXT"           value="Artículos"></property>
+        <property name="TDLM_ADD_ITEM_BUTTON_TOOLTIP"    value="Agregar ítem nuevo"></property>
+        <property name="TDLM_REMOVE_ITEM_BUTTON_TOOLTIP" value="Remover item seleccionado"></property>
+        <property name="TDLM_EDIT_ITEM_BUTTON_TOOLTIP"   value="Editar elemento seleccionado"></property>
+        <property name="TDLM_MOVE_UP_BUTTON_TOOLTIP"     value="Mueva el elemento seleccionado hacia arriba"></property>
+        <property name="TDLM_MOVE_DOWN_BUTTON_TOOLTIP"   value="Mover el elemento seleccionado hacia abajo"></property>
+        <property name="TDLM_ORDER_COLUMN_TEXT"         value="orden"></property>
+        <property name="TDLM_NAME_COLUMN_TEXT"          value="nombre"></property>
+        <property name="TDLM_TYPE_COLUMN_TEXT"          value="tipo"></property>
+
+        <!-- LANGUAGE-DEPENDENT TEXT FOR ITEM DIALOG CONTROLS -->
+        <property name="TDLM_ITEM_DIALOG_HEADER_TEXT"               value="Agregar / Editar elementos"></property>
+        <property name="TDLM_ITEM_DIALOG_ADD_HEADER_TEXT"           value="Añadir artículo"></property>
+        <property name="TDLM_ITEM_DIALOG_EDIT_HEADER_TEXT"          value="Editar elemento"></property>
+        <property name="TDLM_ITEM_DIALOG_OK_BUTTON_TEXT"            value="OK"></property>
+        <property name="TDLM_ITEM_DIALOG_CANCEL_BUTTON_TEXT"        value="Cancelar"></property>       
+        <property name="TDLM_ITEM_RESIZE_DIALOG_HEADER_TEXT"        value="Cambiar las dimensiones del logotipo"></property>   
+        <property name="TDLM_ITEM_RESIZE_DIALOG_HEIGHT_PROMPT_TEXT"        value="Altura"></property>   
+        <property name="TDLM_ITEM_RESIZE_DIALOG_WIDTH_PROMPT_TEXT"        value="Anchura"></property>   
+        <property name="TDLM_ITEM_RESIZE_DIALOG_TITLE_TEXT"        value="GoLoGoLo"></property> 
+
+        <!-- TO SWITCH BACK TO ANOTHER FONT -->
+        <property name="DEFAULT_FONT"          value="Times New Roman"></property>
+        <property name="DEFAULT_FONT_SIZE"          value="12"></property>
+        <property name="DEFAULT_CYCLE_METHOD_SIZE"          value="NO_CYCLE"></property>
+        <property name="TDLM_COLOR_GRADIENT_LABEL_TEXT"      value="GRADIENTE DE COLOR"></property>
+        
+        <property name="TDLM_BORDER_THICKNESS_LABEL_TEXT"      value="Grosor del borde:"></property>
+        <property name="TDLM_BORDER_COLOR_LABEL_TEXT"      value="Color del borde:"></property>
+        <property name="TDLM_BORDER_RADIUS_LABEL_TEXT"      value="Radio de la frontera:"></property>
+        
+        
+        <property name="TDLM_FOCUS_ANGLE_LABEL_TEXT"      value="Ángulo de enfoque"></property>
+        <property name="TDLM_FOCUS_DISTANCE_LABEL_TEXT"      value="Distancia de enfoque:"></property>
+        <property name="TDLM_CANTER_X_LABEL_TEXT"      value="Centro X:"></property>
+        <property name="TDLM_CANTER_Y_LABEL_TEXT"      value="Centro Y:"></property>
+        <property name="TDLM_RADIUS_LABEL_TEXT"      value="Radio:"></property>
+        <property name="TDLM_CYCLE_METHOD_LABEL_TEXT"      value="Método de ciclo:"></property>
+        <property name="TDLM_STEP_0_COLOR_LABEL_TEXT"      value="Paso 0 Color:"></property>
+        <property name="TDLM_STEP_1_COLOR_LABEL_TEXT"      value="Paso 1 Color"></property>
+        <property name="SNAP_LABEL_TEXT"                          value="Chasquido"></property>
+        <property name="TDLM_TEXT_DIALOG_TITLE"                          value="Diálogo de texto"></property>
+        <property name="TDLM_OPEN_DIALOG_TITLE"                          value="Documento"></property>
+        <property name="TDLM_TEXT_DIALOG_CONTENT_LABEL"                          value="El texto es: "></property>
+        <property name="TDLM_WRONG_CONTENT_MESSAGE"                          value="El contenido no puede estar vacío "></property>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- TO SWITCH BACK TO ANOTHER LANGUAGE -->
+        <property name="LANGUAGE_DIALOG_TITLE"          value="Selección del idioma de la aplicación"></property>
+        <property name="LANGUAGE_DIALOG_HEADER_TEXT"    value="Elija un idioma"></property>
+        <property name="LANGUAGE_DIALOG_CONTENT_TEXT"   value="Seleccione un idioma para la interfaz de usuario."></property>
+
+        <property name="WORK_FILE_EXT"          value="tdlm"></property>
+	<property name="WORK_FILE_EXT_DESC"     value="Para hacer archivos List Maker"></property>
+
+
+    </property_list>
+    
+    <!-- M3 COMBO BOX CHOICES -->
+   <property_options_list>
+        <property_options name="LANGUAGE_OPTIONS">
+            <option>Inglés</option>
+            <option>coreano</option>
+            <option>Español</option>
+        </property_options>
+    
+        <property_options name="FONT_OPTIONS">
+            <option>Times New Roman</option>
+            <option>Body</option>
+            <option>Arial</option>
+        </property_options>
+        
+         <property_options name="CYCLE_METHOD_OPTIONS">
+            <option>NO_CYCLE</option>
+            <option>REFLECT</option>
+            <option>REPEAT</option>
+        </property_options>
+        
+        <property_options name="FONT_SIZE_OPTIONS">
+
+            <option>10</option>
+            <option>12</option>
+            <option>14</option>
+            <option>16</option>
+            <option>18</option>
+            <option>20</option>
+            <option>22</option>
+            <option>24</option>
+            <option>26</option>
+            <option>28</option>
+            <option>30</option>
+            <option>32</option>
+            <option>34</option>
+            <option>36</option>
+            <option>38</option>
+            <option>40</option>
+            <option>42</option>
+            <option>44</option>
+            <option>46</option>
+            <option>48</option>
+        </property_options>
+    </property_options_list>
+
+    
+    
+    
+    
+</properties>
